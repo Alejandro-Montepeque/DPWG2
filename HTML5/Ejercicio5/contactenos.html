@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>informaciónContacto</title>
+    <title>Contáctenos</title>
+    <link rel="stylesheet" href="/css/page.css">
 </head>
-<body>
+<body class="gradient">
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/HTML5/Ejercicio5/proyectos.html">Proyectos</a></li>
+            <li><a href="/HTML5/Ejercicio5/galeria.html">Galería</a></li>
+            <li><a href="/HTML5/Ejercicio5/contactenos.html">Contáctenos</a></li>
+        </ul>
+    </nav>
+
+    <div class="card">
+        <h1>Contáctenos</h1>
+        <p>Puedes comunicarte con nosotros a través de los siguientes medios:</p>
+        <ul>
+            <li>📞 <strong>Teléfono:</strong> +503 2256-7890</li>
+            <li>📧 <strong>Correo:</strong> contacto@techprohardware.com</li>
+            <li>📍 <strong>Dirección:</strong> Avenida Tecnológica #123, San Salvador, El Salvador</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Formulario de Contacto</h2>
+
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
     
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
 </body>
 </html>
