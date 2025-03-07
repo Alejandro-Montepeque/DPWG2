@@ -46,3 +46,13 @@ img {
     margin: 10px auto;
     border-radius: 10px;
 }
+ul {
+    text-align: justify;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+li {
+    text-align: justify;
+  }
